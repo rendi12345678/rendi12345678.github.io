@@ -1,0 +1,47 @@
+:root {
+  font-size: 50.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100svh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#1a1a1a, #000);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 42rem;
+  padding: 2rem;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 11rem;
+}
+
+figure figcaption {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.qr-code {
+  margin-top: 3rem;
+  width: 80%;
+}
